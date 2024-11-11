@@ -1,6 +1,8 @@
 ## 🤖 MILES: Making Imitation Learning Easy with Self-Supervision
 This repository is template code for the paper: MILES: Making Imitation Learning Easy with Self-Supervision [[paper](https://arxiv.org/abs/2410.19693)]. 
-Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, file you will find functions that will need to be manually implemented depending on the robot.
+Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, file you will find functions that will need to be manually implemented depending on the robot.\
+\
+![teaser](./img/fig.png)
 
 ### 🔩 | Robot Set Up
 • For MILES we used an impedance controller run on a Franka Emika Panda. \
@@ -17,7 +19,7 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 
 ### 🔭 | Policy Deployment 
 
-• Policy deployment is also hardware dependent. It follows
+• Policy deployment is also hardware dependent. The LSTM trained on MILES' augmentation tarjectories is deployed closed-loop until it converges to predicting the identity transformation, after which point the remaining demonstration segment (if a disturbance was detected during data collection) is replayed. More details are available in the file [deploy.py](./deploy.py)
 
 
 
