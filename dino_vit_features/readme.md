@@ -1,0 +1,1 @@
+• You will need to clone dino-vit-features: https://github.com/ShirAmir/dino-vit-features and replace the extractor.py file with the one provided here
