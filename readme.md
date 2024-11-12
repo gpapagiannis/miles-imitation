@@ -23,6 +23,6 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 
 ### ⁉️ | Tips
 
-• We recommend providing the demonstration starting near the object (see out [website](https://www.robot-learning.uk/miles) for example) and subsampling the demontration so that in the end the demonstration comprises 50-100 demo waypoints.
+• We recommend providing the demonstration starting near the object (see out [website](https://www.robot-learning.uk/miles) for example) and subsampling the demontration so that in the end the demonstration comprises 50-100 demo waypoints.\
 • To approach an object from afar when placed at different poses we reccomend first performing pose estimation followed by deploying MILES' policy. We reccomend using the method described in [this paper](https://arxiv.org/abs/2105.06411) which we used for MILES or in [this paper](https://arxiv.org/abs/2310.12077).
 
