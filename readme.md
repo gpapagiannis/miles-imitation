@@ -1,11 +1,11 @@
 ## 🤖 MILES: Making Imitation Learning Easy with Self-Supervision
 This repository is template code for the paper: MILES: Making Imitation Learning Easy with Self-Supervision [[paper](https://arxiv.org/abs/2410.19693)]. 
-Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, file you will find functions that will need to be manually implemented depending on the robot.\
+Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, you will find functions that will need to be implemented manually depending on your robot hardware.\
 \
 ![teaser](./img/fig.png)
 
 ### 🔩 | Robot Set Up
-• For MILES we used an impedance controller run on a Franka Emika Panda. \
+• For MILES we used an impedance controller run on a Franka Emika Panda. The same code can be used if you are using a position/velocity controller but we recommend impedance control for contact-rich tasks. \
 • Wrist camera. The wrist camera should ideally be able to observe the object grasped in the robot's gripper in addition to the environment.\
 • (Optional) Force Torque sensing. If you do not use a force sensor make sure to remove it as a modality from the policy learning.\
 
@@ -23,6 +23,6 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 
 ### ⁉️ | Tips
 
-• We recommend providing the demonstration starting near the object (see out [website](https://www.robot-learning.uk/miles) for example) and subsampling the demontration so that in the end the demonstration comprises 50-100 demo waypoints.\
-• To approach an object from afar when placed at different poses we reccomend first performing pose estimation followed by deploying MILES' policy. We reccomend using the method described in [this paper](https://arxiv.org/abs/2105.06411) which we used for MILES or in [this paper](https://arxiv.org/abs/2310.12077).
+• We recommend providing the demonstration starting near the object (see our [website](https://www.robot-learning.uk/miles) for examples) and subsampling the demontration so that in the end the demonstration comprises 50-100 demo waypoints for efficient data collection.\
+• To approach an object from afar when placed at different poses we recommend first performing pose estimation followed by deploying MILES' policy. We recommend using the method described in [this paper](https://arxiv.org/abs/2105.06411) which we used for MILES or the method in [this paper](https://arxiv.org/abs/2310.12077).
 
