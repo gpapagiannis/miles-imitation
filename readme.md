@@ -21,5 +21,8 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 
 • Policy deployment is also hardware dependent. The LSTM trained on MILES' augmentation tarjectories is deployed closed-loop until it converges to predicting the identity transformation, after which point the remaining demonstration segment (if a disturbance was detected during data collection) is replayed. More details are available in the file [deploy.py](./deploy.py)
 
+### ⁉️ | Tips
 
+• We recommend providing the demonstration starting near the object (see out [website](https://www.robot-learning.uk/miles) for example) and subsampling the demontration so that in the end the demonstration comprises 50-100 demo waypoints.
+• To approach an object from afar when placed at different poses we reccomend first performing pose estimation followed by deploying MILES' policy. We reccomend using the method described in [this paper](https://arxiv.org/abs/2105.06411) which we used for MILES or in [this paper](https://arxiv.org/abs/2310.12077).
 
