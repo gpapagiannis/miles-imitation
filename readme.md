@@ -1,6 +1,6 @@
 ## 🤖 MILES: Making Imitation Learning Easy with Self-Supervision
 This repository is template code for the paper: MILES: Making Imitation Learning Easy with Self-Supervision [[paper](https://arxiv.org/abs/2410.19693)]. 
-Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, you will find functions that will need to be implemented manually depending on your robot hardware.\
+Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)]. The complete implementation is dependent on your own hardware. In each file, you will find functions that will need to be implemented manually depending on your robot hardware.
 
 
 ![teaser](./img/fig.png)
@@ -8,7 +8,7 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 ### ✅ | Benefits of MILES
 • Learns from a single demonstration\
 • Requires one environment reset\
-• Assumes no prior knowledge (e.g., object CAD models)\\
+• Assumes no prior knowledge (e.g., object CAD models)\
 For data collection videos please visit our [website](https://www.robot-learning.uk/miles).
 
 
