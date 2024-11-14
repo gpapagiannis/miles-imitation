@@ -7,7 +7,7 @@ Videos of MILES can be found our [[website](https://www.robot-learning.uk/miles)
 
 ### ✅ | Benefits of MILES
 • Learns from a single demonstration\
-• Requires one environment reset\
+• Requires only one environment reset\
 • Assumes no prior knowledge (e.g., object CAD models)\
 For data collection videos please visit our [website](https://www.robot-learning.uk/miles).
 
