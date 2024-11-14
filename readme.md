@@ -15,7 +15,7 @@ For data collection videos please visit our [website](https://www.robot-learning
 ### 🔩 | Robot Set Up
 • For MILES we used an impedance controller run on a Franka Emika Panda. The same code can be used if you are using a position/velocity controller but we recommend impedance control for contact-rich tasks. \
 • Wrist camera. The wrist camera should ideally be able to observe the object grasped in the robot's gripper in addition to the environment.\
-• (Optional) Force Torque sensing. If you do not use a force sensor make sure to remove it as a modality from the policy learning.\
+• (Optional) Force Torque sensing. If you do not use a force sensor make sure to remove it as a modality from the policy learning.
 
 
 ### 🦾 | Self-Supervised Data Collection
